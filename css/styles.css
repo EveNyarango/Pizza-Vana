@@ -19,3 +19,14 @@ nav ul li a{
     widows:150px; ;
     height: 150px;
 }
+body{
+    text-align-last: center;
+}
+#vana{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.col-md-3 img{
+    width:250px;
+    height:250px;
+}
