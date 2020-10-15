@@ -5,9 +5,13 @@ nav ul li {
 
 }
 nav ul li a{
-    color:#dc3545 ;
+    color:#dc3545;
     font-size: 20px;
     /* font-weight: 400; */
+}
+#location, #phone{
+    width: 50px;
+    height: 50px;
 }
 .navy{
     background-image: url(../images/good\ times\ pizza.jpg);
@@ -30,14 +34,6 @@ body{
     width:250px;
     height:250px;
 }
-
-
-
-
-
-
-
-
 
 
 
