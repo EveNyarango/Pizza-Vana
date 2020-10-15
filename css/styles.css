@@ -34,7 +34,9 @@ body{
     width:250px;
     height:250px;
 }
-
+footer a{
+ color: white;
+}
 
 
 
@@ -44,4 +46,5 @@ footer{
     background-color:black;
     /* opacity: 0.6; */
     color:white;
+    margin-top:20px;
 }
