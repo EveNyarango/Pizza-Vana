@@ -1,11 +1,14 @@
 nav ul li {
     display: inline-block;
-    padding:10px;
+    /* padding:5px; */
     margin-right:150px;
 
 }
+/* nav{
+    background-color: black;
+} */
 nav ul li a{
-    color:#dc3545;
+    color:black;
     font-size: 20px;
     /* font-weight: 400; */
 }
@@ -45,11 +48,23 @@ body{
 #exampleFormControlSelect1{
     background-color:none;
 }
-#mushy{
-    margin-right:500px ;
+.jumbotron{
+    background-color:black;
+    color: white;
 }
 #delivery{
     display: none;
+    color: white;
+    font-weight:1000;
+}
+#menu1{
+    background-image: url(../images/something-meaty.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+th{
+    font: weight 100px;;
 }
 
 footer a{

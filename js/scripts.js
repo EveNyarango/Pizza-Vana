@@ -7,3 +7,13 @@ $(document).ready(function () {
     });
 
 });
+
+
+// $(document).ready(function () {
+//     $("#checkout").click(function () {
+//         $("#checkout").hide();
+//         $("addlist").hide();
+//         $("#deliver").slideDown(1000);
+//         $("#pizzatotal").append("Your bill is ksh. " + checkoutTotal);
+//       })
+//     });

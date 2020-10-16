@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="menu1">
     <div class="container">
 
         <nav>
@@ -32,48 +33,55 @@
         <div class="row" id="yummy">
 
             <div class="col-md-6" id="mushy">
-                <form action="">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Select your prefered flavour</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option></option>
-                            <option>Something-meaty</option>
-                            <option>Chicken periperi</option>
-                            <option>Chicken Pizza</option>
-                            <option>Beef steak and mushroom</option>
-                            <option>Onions and tomatoes Pizza</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">Select size</label>
-                        <select class="form-control" id="exampleFormControlSelect2">
-                            <option value=""></option>
-                            <option>Small @Ksh.700</option>
-                            <option>Medium @Ksh.1000</option>
-                            <option>Large @Ksh.1400</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect3">Choose your favourite crust</label>
-                        <select class="form-control" id="exampleFormControlSelect3">
-                            <option value=""></option>
-                            <option>Cripsy @Ksh.300</option>
-                            <option>Stuffed @Ksh.200</option>
-                            <option>Glutten-free @Ksh.150</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect4">Choose your favourite topping</label>
-                        <select class="form-control" id="exampleFormControlSelect4">
-                            <option value=""></option>
-                            <option>Extra cheese @Ksh.200</option>
-                            <option>Bacon @Ksh.200</option>
-                            <option>Sausage @Ksh.150</option>
-                            <option>Brocolli @Ksh.150</option>
-                        </select>
-                    </div>
-                    <button type="button" class="btn btn-success" id="order">Order</button>
-                </form>
+                <div class="jumbotron">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Select your prefered flavour</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option></option>
+                                <option>Something-meaty</option>
+                                <option>Chicken periperi</option>
+                                <option>Chicken Pizza</option>
+                                <option>Beef steak and mushroom</option>
+                                <option>Onions and tomatoes Pizza</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect2">Select size</label>
+                            <select class="form-control" id="exampleFormControlSelect2">
+                                <option value=""></option>
+                                <option>Small @Ksh.700</option>
+                                <option>Medium @Ksh.1000</option>
+                                <option>Large @Ksh.1400</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect3">Choose your favourite crust</label>
+                            <select class="form-control" id="exampleFormControlSelect3">
+                                <option value=""></option>
+                                <option>Cripsy @Ksh.300</option>
+                                <option>Stuffed @Ksh.200</option>
+                                <option>Glutten-free @Ksh.150</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect4">Choose your favourite topping</label>
+                            <select class="form-control" id="exampleFormControlSelect4">
+                                <option value=""></option>
+                                <option>Extra cheese @Ksh.200</option>
+                                <option>Bacon @Ksh.200</option>
+                                <option>Sausage @Ksh.150</option>
+                                <option>Brocolli @Ksh.150</option>
+                            </select>
+                            <div class="col">
+                                <label for="">Number of Pizza</label>
+                              <input type="number" class="form-control" placeholder="">
+                            </div>
+    
+                        </div>
+                        <button type="button" class="btn btn-success" id="order">Order</button>
+                    </form>
+                </div>
             </div>
 
             <!-- <form action="">
@@ -92,16 +100,18 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
+                            
                             <th scope="col">Flavour</th>
                             <th scope="col">Size</th>
                             <th scope="col">Crust</th>
                             <th scope="col">Topping</th>
+                            <th scope="col">Number of Pizza</th>
                             <th scope="col">Total</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"></th>
+                            <td id="num"></td>
                             <td id="flavour"></td>
                             <td id="size"></td>
                             <td id="crust"></td>
@@ -112,21 +122,36 @@
 
                     </tbody>
                 </table>
-                <button type="button" class="btn btn-success">Check-out</button>
+                <button type="button" class="btn btn-success" id="addlist">Addlist</button>
+                <button type="button" class="btn btn-success" id="checkout">Check-out</button>
                 <button type="button" class="btn btn-success" id="del">Home Delivery!</button>
-            </div>
+                <div id="delivery">
+                    <br>
+                    <h3>Home Delivery</h3>
+                    <div class="row">
+                        <div class="col">
+                            <label for="">Name</label>
+                          <input type="text" class="form-control" placeholder="e.g Eve">
+                        </div>
+                        <div class="col">
+                            <label for="">Location</label>
+                          <input type="text" class="form-control" placeholder="e.g Kinoo">
+                        </div>
+                        <div class="col">
+                            <label for="">Phone number</label>
+                          <input type="number" class="form-control" placeholder="e.g 071111111">
+                        </div>
 
+                    <button type="button" class="btn btn-success" >Deliver</button>
+                </div>
+            </div>
+            
         </div>
-        <div id="delivery">
-        <h3>Home Delivery</h3>
-        <select id="selection">
-            <option selected value="0"></option>
-            <option value="">Nairobi CBD</option>
-            <option value="">Nairobi Surbubs</option>
-            <option value="">Nairobi Metropolitan</option>
-        </select>
-        <button type="button" class="btn btn-success" id="del">Delivery</button>
     </div>
+    <!-- <p id="pizzatotal"></p>
+                      <p id="totalbill"></p>
+                      <p id="addedprice">Delivery will cost sh. 150</p>
+                      <p id="finallmessage"></p> -->
         <footer>
             <h2>Locate us</h2>
             <img src="images/location1.jpg" alt="" id="location">
