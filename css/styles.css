@@ -34,11 +34,27 @@ body{
     width:250px;
     height:250px;
 }
-footer a{
- color: white;
+#receipt{
+    display: none;
+}
+/* .yummy{
+    background-image: url(../images/friends\ pizza\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#exampleFormControlSelect1{
+    background-color:none;
+}
+#mushy{
+    margin-right:500px ;
+}
+#delivery{
+    display: none;
 }
 
-
+footer a{
+    color: white;
+   }
 
 footer{
     width: 100%;
