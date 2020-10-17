@@ -34,8 +34,8 @@ body{
     font-size: 20px;
 }
 .col-md-3 img{
-    width:250px;
-    height:250px;
+    width:300px;
+    height:300px;
 }
 #receipt{
     display: none;
