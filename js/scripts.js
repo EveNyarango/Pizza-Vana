@@ -7,7 +7,7 @@ function Orderpizza (flavour,size,crust,topping,number1){
     this.topping = topping;
     this.number1 = number1;
 }
-
+ch
 function Checkprice (size_price, crust_price, topping_price, number1 ){
    this.size_price = size_price;
    this.crust_price = crust_price;
@@ -15,9 +15,16 @@ function Checkprice (size_price, crust_price, topping_price, number1 ){
    this.number1 = number1
 }
 
-Orderpizza.prototype.totalprice=function(){
+Checkprice.prototype.totalprice=function(){
     return (size_price + crust_price + topping_price)*number1
 }
+var sizePrice =[700,1000,1400]
+var sizeName =[Small, medium, Large ]
+var crustPrice =[300,200,150]
+var crustName =[Cripsy,Stuffed,Glutten-free]
+var toppingPrice =[200,200,150,150]
+var toppingName =[Cheese,Bacon,Sausage,Brocolli]
+
 
 
 
