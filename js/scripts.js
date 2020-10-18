@@ -127,5 +127,5 @@ function columnTotal() {
 function deliver() {
     var name1 = $("#nem").val();
     var loc = $("#locy").val();
-    alert("Thank you "  + name1 + " for ordering at Pizza-vanna."   +  " Your order will be delivered at " + loc +   "within an hour." + "The cost of delivery" + "is sh.200."   +  "Bona petit.")
+    alert("Thank you "  + name1 + " for ordering at Pizza-vanna."   +  " Your order will be delivered at " + loc +   " within an hour." + " The cost of delivery" + " is sh.200."   +  " Bona petit.")
 }
