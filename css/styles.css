@@ -4,9 +4,7 @@ nav ul li {
     margin-right:150px;
 
 }
-/* nav{
-    background-color: black;
-} */
+
 nav ul li a{
     color:black;
     font-size: 20px;
@@ -20,7 +18,7 @@ nav ul li a{
     background-image: url(../images/good\ times\ pizza.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height:600px;
 }
 #logo{
     widows:150px; ;
@@ -40,11 +38,7 @@ body{
 #receipt{
     display: none;
 }
-/* .yummy{
-    background-image: url(../images/friends\ pizza\ 3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 #exampleFormControlSelect1{
     background-color:none;
 }
